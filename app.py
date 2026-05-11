@@ -247,9 +247,6 @@ def handle_user_input(
     with st.chat_message("assistant"):
         with st.spinner("Creating answer…"):
             try:
-
-                if "cheapest" in prompt.lower():
-                    response = "TODO: cheapest SQL query"
                     
                 # 2. Embed the query
                 query_vector = embed_query(openai_client, prompt)
