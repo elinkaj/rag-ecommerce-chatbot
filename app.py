@@ -282,11 +282,10 @@ def handle_user_input(
 def main() -> None:
     st.set_page_config(
         page_title="Shop Assistant",
-        page_icon="🛍️",
         layout="centered",
     )
 
-    st.title("🛍️ Shop Assistant")
+    st.title(" Shop Assistant")
     st.caption(
         "Ask me about products, prices, or recommendations — I'll find the best match for you."
     )
